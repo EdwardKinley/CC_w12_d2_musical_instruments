@@ -1,6 +1,9 @@
 body {
   background-color: gold;
   font-family: sans-serif;
+}
+
+.body, .results {
   border: 0.5rem solid black;
   padding: 2rem;
 }

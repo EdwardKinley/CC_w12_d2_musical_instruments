@@ -8,7 +8,7 @@ const InstrumentFamilies = function() {
       instruments: ['trumpet', 'trombone', 'horn', 'tuba', 'bugle']
     },
     {
-      name: 'Strings',
+      name: 'String',
       description: 'String instruments, stringed instruments, or chordophones are musical instruments that produce sound from vibrating strings when the performer plays or sounds the strings in some manner.',
       instruments: ['violin', 'double bass', 'guitar', 'sitar', 'hurdy-gurdy']
     },

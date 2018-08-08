@@ -12,8 +12,17 @@ FamilyView.prototype.bindEvents = function() {
 };
 
 FamilyView.prototype.render = function(family) {
-  const infoParagraph = document.createElement('p');
-  infoParagraph.textContent = `The ${family.name} family: ${family.description}`;
+  const infoParagraph = document.createElement('h2');
+  infoParagraph.textContent = `The ${family.name} family`;
+
+  const description = document.createElement('h6');
+  description.textContent = `${family.description}`;
+  infoParagraph.appendChild(description);
+
+  const instruments = document.createElement('h6');
+  instruments.textContent = `${family.instruments}`;
+  infoParagraph.appendChild(instruments);
+
   this.container.innerHTML = '';
   this.container.appendChild(infoParagraph);
 };
